@@ -14,7 +14,7 @@
   --secondary-color: #b81515;
 
   --text-primary-color: #222222;
-  --text-second-color: #ffffff;
+  --text-secondary-color: #ffffff;
 
   --title-weigth: 700;
   --text-weigth: 400;
@@ -26,4 +26,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat";
 }
