@@ -37,3 +37,30 @@ nav {
   margin-left: 40px;
   text-decoration: none;
 }
+ .navigation-menu nav ul li a{
+    color: var(--text-secondary-color);
+    text-decoration: none;
+    font-weight: var(--menu-text-weigth);
+    font-size: 24px;
+ }
+
+@media screen and (min-width: 768px){
+  .navigation-menu{
+    margin-top: 0px;
+    width: 467px
+  }
+  .navigation-menu nav{
+    display: block;
+  }
+  .navigation-menu label{
+    display: none;
+  }
+  .navigation-menu nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+   .navigation-menu nav ul li a{
+    margin:0;
+  }
+}
