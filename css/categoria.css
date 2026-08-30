@@ -1,0 +1,96 @@
+.category_cards_groupy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 312px;
+  height: 952px;
+  margin: 0 auto;
+  gap: 24px;
+}
+.category .section_title {
+  margin: 88px 0 32px;
+  padding: 0 32px;
+}
+.category .section_title h2 {
+  font-size: 32px;
+}
+.category_cards {
+  width: 312px;
+  height: 220px;
+  position: relative;
+}
+.category_bottons {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-secondary-color);
+}
+.category_bottons h2 {
+  position: absolute;
+  text-align: center;
+  bottom: 41px;
+  color: var(--text-primary-color);
+  font-size: 28px;
+  font-weight: var(--title-weigth);
+}
+.category_bottons img {
+  position: absolute;
+  bottom: 99px;
+}
+.category_bottons.airplane h2 {
+  max-width: 190px;
+  bottom: 24px;
+}
+.category_bottons.airplane img {
+  position: absolute;
+  bottom: 116px;
+}
+@media screen and (min-width: 768px) {
+  .category_cards_groupy {
+    width: 648px;
+    height: 464px;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 32px 60px 0;
+  }
+  .category_cards {
+    width: 312px;
+    height: 220px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .category_cards_groupy {
+    margin: 0;
+    width: 100%;
+    height: 220px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+    padding: 0 50px;
+  }
+  .category_cards {
+    width: 281px;
+    height: 220px;
+  }
+  .category_bottons h2 {
+    bottom: 24px;
+  }
+  .category_bottons.airplane img {
+    bottom: 99px;
+  }
+  .category .section_title {
+  margin: 104px 0 64px;
+}
+}
+@media screen and (min-width: 1440px) {
+    .category_cards_groupy{
+        width: 1197px;
+        margin: 0 121px;
+        padding: 0;
+    }
+}
