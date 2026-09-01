@@ -28,6 +28,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--background-secondary-color);
+  border-radius: 8px;
 }
 .category_bottons h2 {
   position: absolute;
