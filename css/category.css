@@ -1,3 +1,6 @@
+.category{
+  margin-bottom: 88px;
+}
 .category_cards_groupy {
   display: flex;
   flex-direction: column;
