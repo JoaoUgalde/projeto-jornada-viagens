@@ -1,3 +1,6 @@
+.category{
+  margin-bottom: 88px;
+}
 .category_cards_groupy {
   display: flex;
   flex-direction: column;
@@ -28,6 +31,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--background-secondary-color);
+  border-radius: 8px;
 }
 .category_bottons h2 {
   position: absolute;
