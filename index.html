@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="css/style.css" />
-
     <title>Jornada Viagens</title>
   </head>
   <body>
@@ -30,7 +28,8 @@
         <nav>
           <ul class="list_links">
             <li>
-              <a href="blog.hmtl" target="_blank" title="acessar blog">Blog</a>
+              <!-- CORRIGIDO: de .hmtl para .html -->
+              <a href="blog.html" target="_blank" title="acessar blog">Blog</a>
             </li>
             <li>
               <a
@@ -49,10 +48,16 @@
         </nav>
       </div>
     </header>
+
     <section class="hero">
-     <div class="hero-img"></div>
-      <h2>Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!</h2>
+      <div class="hero-img"></div>
+      <h2>
+        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
+        à seleção das atividades, cuidamos de todos os detalhes para que você
+        aproveite ao máximo cada momento da sua jornada!
+      </h2>
     </section>
+
     <section class="offers">
       <div class="section_title">
         <h2>Ofertas da Semana</h2>
@@ -61,7 +66,7 @@
       <div class="offers_cards">
         <article class="card japao">
           <header>
-            <p>HOTEL+ÁREO</p>
+            <p>HOTEL+AÉREO</p>
             <h3>
               Japão <br />
               <span>R$4000</span>
@@ -73,7 +78,7 @@
         </article>
         <article class="card san-andreas">
           <header>
-            <p>HOTEL+ÁREO</p>
+            <p>HOTEL+AÉREO</p>
             <h3>
               San Andreas<br />
               <span>R$3000</span>
@@ -85,7 +90,7 @@
         </article>
         <article class="card paraiba">
           <header>
-            <p>HOTEL+ÁREO</p>
+            <p>HOTEL+AÉREO</p>
             <h3>
               Paraíba <br />
               <span>R$1200</span>
@@ -97,7 +102,7 @@
         </article>
         <article class="card manaus">
           <header>
-            <p>HOTEL+ÁREO</p>
+            <p>HOTEL+AÉREO</p>
             <h3>
               Manaus<br />
               <span>R$1600</span>
@@ -107,73 +112,111 @@
             <a href="#" class="button">ver detalhes</a>
           </footer>
         </article>
+      </div>
+      <!-- CORRIGIDO: Fechamento da div .offers_cards adicionado aqui -->
     </section>
+
     <section class="category">
       <div class="section_title">
         <h2>Busque por categoria</h2>
         <hr />
+      </div>
+      <div class="category_cards_groupy">
+        <div class="category_cards">
+          <a href="#" class="category_bottons climber">
+            <img
+              src="img/ícone_alpinista-pacotes nacionais.png"
+              alt="icone de uma pessoa com uma mochila e um suporte funcionando quase de uma bengala"
+            />
+            <h2>Pacotes nacionais</h2>
+          </a>
         </div>
-
-        <div class="category_cards_groupy">
-
-          <div class="category_cards">
-            <a href="#" class="category_bottons climber">
-              <img src="img/ícone_alpinista-pacotes nacionais.png" alt="icone de uma pessoa com uma mochila e um suporte funcionando quase de uma bengala">
-              <h2>Pacotes nacionais</h2>
-        </a>
+        <div class="category_cards">
+          <a href="#" class="category_bottons airplane">
+            <img
+              src="img/ícone_avião-pacotes interacionais.png"
+              alt="icone de um avião cinza visto de cima"
+            />
+            <h2>Pacotes internacionais</h2>
+          </a>
+        </div>
+        <div class="category_cards">
+          <a href="#" class="category_bottons car">
+            <img
+              src="img/ícone_carro-transfer.png"
+              alt="icone de um carro cinza"
+            />
+            <h2>Transfer</h2>
+          </a>
+        </div>
+        <div class="category_cards">
+          <a href="#" class="category_bottons planet">
+            <img
+              src="img/ícone-planeta-seguro viagem.png"
+              alt="icone de um planeta cinza com um cadeado no canto superior direito"
+            />
+            <h2>Seguro viagem</h2>
+          </a>
+        </div>
       </div>
-
-      <div class="category_cards">
-        <a href="#" class="category_bottons airplane">
-          <img src="img/ícone_avião-pacotes interacionais.png" alt="icone de um avião cinza visto de cima">
-          <h2>Pacotes internacionais</h2>
-        </a>
-      </div>
-
-      <div class="category_cards ">
-        <a href="#" class="category_bottons car">
-          <img src="img/ícone_carro-transfer.png" alt="icone de um carro cinza">
-          <h2>Transfer</h2>
-        </a>
-      </div>
-
-      <div class="category_cards">
-        <a href="#" class="category_bottons planet">
-          <img src="img/ícone-planeta-seguro viagem.png" alt="icone de um planeta cinza com um cadeado no canto superior direito">
-          <h2>Seguro viagem</h2>
-        </a>
-      </div>
-      
-    </div>
     </section>
-    <section class="destinations">
-       <div class="section_title">
-        <h2>Destinos populares</h2>
-        <hr /></div >
-        <div class="destination-items">
-          <article class="item">
-            <header>
-              <div class="img_item tokyo"></div>
-              <h4>Tokyo</h4>
-              <p>Tóquio é uma cidade vibrante e cosmopolita, com seus templos históricos, museus de arte moderna e arranha-céus icônicos. Não perca a chance de mergulhar em sua atmosfera fascinante.</p>
-            </header>
-            <footer>
-              <a href="#" class="button">ver detalhes</a>
-            </footer>
-          </article>
 
-            <article class="item">
-            <header>
-              <div class="img_item osaka"></div>
-              <h4>Osaka</h4>
-              <p>Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa por sua gastronomia deliciosa e por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.</p>
-            </header>
-            <footer>
-               <a href="#" class="button">ver detalhes</a>
-            </footer>
-          </article>
+    <section class="destinations">
+      <div class="section_title">
+        <h2>Destinos populares</h2>
+        <hr />
+      </div>
+      <div class="destination-items">
+        <article class="item">
+          <header>
+            <div class="img_item tokyo"></div>
+            <h4>Tokyo</h4>
+            <p>
+              Tóquio é uma cidade vibrante e cosmopolita, com seus templos
+              históricos, museus de arte moderna e arranha-céus icônicos. Não
+              perca a chance de mergulhar em sua atmosfera fascinante.
+            </p>
+          </header>
+          <footer>
+            <a href="#" class="button">ver detalhes</a>
+          </footer>
+        </article>
+        <article class="item">
+          <header>
+            <div class="img_item osaka"></div>
+            <h4>Osaka</h4>
+            <p>
+              Osaka é uma cidade agitada e moderna no Japão. A cidade é famosa
+              por sua gastronomia deliciosa e por ser um excelente ponto de
+              partida para explorar outras cidades japonesas próximas.
+            </p>
+          </header>
+          <footer>
+            <a href="#" class="button">ver detalhes</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <section class="payments">
+      <div class="section_title">
+        <h2>Condições de pagamento</h2>
+        <hr />
+      </div>
+      <div class="payments_contain">
+        <div class="payments-forms">
+          <h4>Parcelamento em até 12x!</h4>
+          <p>
+            Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
+            5% de desconto ou no Pix com 10% de desconto!
+          </p>
         </div>
-        
+        <div class="img-payments">
+          <div class="img_menor img1"></div>
+          <div class="img_menor img2"></div>
+          <div class="img_maior"></div>
+        </div>
+      </div>
     </section>
   </body>
 </html>

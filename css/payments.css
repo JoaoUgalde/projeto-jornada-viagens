@@ -1,0 +1,217 @@
+.payments .section_title {
+  width: 200px;
+  margin: auto;
+}
+
+.payments-forms {
+  width: 312px;
+  height: 220px;
+  margin: 0 auto 24px;
+}
+
+.payments-forms h4 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  font-weight: var(--title-weigth);
+}
+
+.payments-forms p {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
+}
+
+/*(codigo antigo, manterei no codigo somente por precaução) 
+.img_menor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+.img1 {
+  width: 144px;
+  height: 254px;
+  background-image: url(../img/payments-japão-1.png);
+  background-size: cover;
+}
+.img2 {
+  width: 144px;
+  height: 254px;
+  background-image: url(../img/payments-japão-2.png);
+  background-size: cover;
+}
+
+.img_maior {
+  width: 312px;
+  height: 182px;
+  background-image: url(../img/payments-japão-3.png);
+  background-size: cover;
+  margin: 24px auto 0;
+} */
+
+.img-payments {
+  width: 312px;
+  height: 460px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "img-m-1 img-m-2"
+    "img-m-3 img-m-3";
+  gap: 24px;
+}
+
+.img1 {
+  grid-area: img-m-1;
+  background-image: url(../img/payments-japão-1.png);
+  background-size: cover;
+}
+
+.img2 {
+  grid-area: img-m-2;
+  background-image: url(../img/payments-japão-2.png);
+  background-size: cover;
+}
+
+.img_maior {
+  grid-area: img-m-3;
+  background-image: url(../img/payments-japão-3.png);
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  /* .img_menor .img1 {
+    width: 312px;
+    height: 254px;
+    background-image: url(../img/payments-japão.desktop-1.png);
+    background-size: cover;
+  }
+
+  .img_menor .img2 {
+    width: 312px;
+    height: 254px;
+    background-image: url(../img/payments-japão.desktop-2.png);
+    background-size: cover;
+  }
+
+  .img_maior {
+    width: 648px;
+    height: 182px;
+    background-image: url(../img/payments-japão.desktop-3.png);
+    background-size: cover;
+    margin: 24px auto 0;
+  }
+ */
+
+  .payments .section_title {
+    width: 430px;
+  }
+
+  .payments-forms {
+    width: 648px;
+    height: 122px;
+  }
+  .img-payments {
+    width: 648px;
+    height: 460px;
+
+    .img1 {
+      grid-area: img-m-1;
+      background-image: url(../img/payments-japão.desktop-1.png);
+    }
+
+    .img2 {
+      background-image: url(../img/payments-japão.desktop-2.png);
+    }
+
+    .img_maior {
+      background-image: url(../img/payments-japão.desktop-3.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* (codigo antigo, manterei no codigo somente por precaução)
+  .payments_contain {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: auto;
+  }
+
+  .img_menor .img1 {
+    width: 300px;
+  }
+
+  .img_menor .img2 {
+    width: 300px;
+  }
+
+  .img_maior {
+    width: 620px;
+  }
+
+  .payments-forms {
+    width: 375px;
+    height: 209px;
+    } */
+  .payments-forms {
+    width: 260px;
+    height: 460px;
+  }
+  .payments_contain {
+    display: flex;
+    flex-direction: row;
+    width: 884px;
+    margin: auto;
+  }
+  .img-payments {
+    margin: 0;
+    width: 625px;
+    height: 460px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* (codigo antigo, manterei no codigo somente por precaução)
+  .payments_contain {
+    width: 1100px;
+  }
+
+  .img_menor .img1 {
+    width: 384px;
+  }
+
+  .img_menor .img2 {
+    width: 384px;
+  }
+
+  .img_maior {
+    width: 790px;
+  }
+
+  .payments-forms {
+    width: 310px;
+    height: 210px;
+    margin: 0;
+  } */
+  .payments_contain {
+    display: flex;
+    flex-direction: row;
+    width: 1210px;
+  }
+  .img-payments {
+    margin: 0;
+    width: 780px;
+    height: 510px;
+  }
+  .payments-forms {
+    width: 384px;
+    height: 460px;
+    margin: 23px;
+  }
+  .payments-forms h4 {
+    width: 290px;
+  }
+}
