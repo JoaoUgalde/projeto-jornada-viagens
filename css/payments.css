@@ -106,7 +106,7 @@
 
   .payments .section_title {
     width: 430px;
-    margin: 88px auto 52px;
+    margin: 104px auto 52px;
   }
 
   .payments-forms {
@@ -170,7 +170,7 @@
   .img-payments {
     margin: 0;
     width: 625px;
-    height: 460px;
+    height: auto;
   }
 }
 
