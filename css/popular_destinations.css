@@ -64,7 +64,7 @@
   .destination-items {
     display: flex;
     flex-direction: row;
-    height: 800px;
+    height: 745px;
     width: auto;
     justify-content: center;
     gap: 20px;
