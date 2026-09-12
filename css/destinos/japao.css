@@ -32,6 +32,8 @@
 .destinations .section_title h2{
    padding: 0px 60px;
 }
+/* payments */
+
 @media screen and (min-width:768px){
     /* header */
     .navigation-menu nav ul li a.pacotes {
