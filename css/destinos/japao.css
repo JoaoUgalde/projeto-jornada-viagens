@@ -25,11 +25,19 @@
     font-size: 20px;
     line-height: 32px;
 }
+/* destination */
+.destinations{
+    margin-top: 88px;
+}
+.destinations .section_title h2{
+   padding: 0px 60px;
+}
 @media screen and (min-width:768px){
     /* header */
     .navigation-menu nav ul li a.pacotes {
     text-decoration: underline;
 }
+
 /* hero */
 .hero .hero-img{
     height: 620px;
@@ -39,13 +47,15 @@
     background-position: 70% center;
     padding: 210px 69px  108px 120px;
 }
+
 .hero .hero-img .section_title p{
     font-size: 32px;
     line-height: 150%;
 }
 }
-@media screen and (min-width:1440px){
-    .section_title{
+
+@media screen and (min-width:1024px){
+    .hero .section_title{
     width: 580px;
 }
 }
