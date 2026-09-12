@@ -1,0 +1,51 @@
+@import url(../style.css);
+
+.hero .hero-img{
+    height: 460px;
+    width: 100%;
+    background: url(../../img/img_monte_fuji_japao_mobile.jpg) no-repeat;
+    background-size: cover;
+    padding: 65px 24px;
+    box-sizing: border-box;
+}
+.section_title{
+    margin: 0;
+}
+.hero .hero-img .section_title hr{
+   margin: 32px 0 16px;
+}
+.hero .hero-img .section_title h1{
+    color:var(--text-secondary-color);
+    font-weight: var(--title-weigth);
+    font-size: 48px;
+}
+.hero .hero-img .section_title p{
+    color:var(--text-secondary-color);
+    font-weight: var(--text-weigth);
+    font-size: 20px;
+    line-height: 32px;
+}
+@media screen and (min-width:768px){
+    /* header */
+    .navigation-menu nav ul li a.pacotes {
+    text-decoration: underline;
+}
+/* hero */
+.hero .hero-img{
+    height: 620px;
+    width: 100%;
+    background: url(../../img/img_monte_fuji_japao_tablet_desktop_.jpg) no-repeat;
+    background-size: cover;
+    background-position: 70% center;
+    padding: 210px 69px  108px 120px;
+}
+.hero .hero-img .section_title p{
+    font-size: 32px;
+    line-height: 150%;
+}
+}
+@media screen and (min-width:1440px){
+    .section_title{
+    width: 580px;
+}
+}
