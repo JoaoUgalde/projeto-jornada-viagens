@@ -5,7 +5,7 @@
 
 .payments-forms {
   width: 312px;
-  height: 220px;
+  height: auto;
   margin: 0 auto 24px;
 }
 
@@ -18,6 +18,7 @@
 .payments-forms p {
   font-size: 20px;
   font-weight: var(--text-weigth);
+  line-height: 32px;
 }
 
 /*(codigo antigo, manterei no codigo somente por precaução) 
@@ -111,7 +112,7 @@
 
   .payments-forms {
     width: 648px;
-    height: 122px;
+    height: auto;
   }
   .img-payments {
     width: 648px;

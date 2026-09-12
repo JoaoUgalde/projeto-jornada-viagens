@@ -33,13 +33,30 @@
    padding: 0px 60px;
 }
 /* payments */
+.payments .payments_contain .payments-forms h2{
+    font-weight: var(--title-weigth);
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.payments .payments_contain .img-payments .img_menor.img1{
+background-image: url(../../img/templo.japan.jpg);
+background-position: 60% center;
+}
+.payments .payments_contain .img-payments .img_menor.img2{
+    background-image: url(../../img/tokyo.japan.jpg);
+    background-position: 60% center;
+}
+.payments .payments_contain .img-payments .img_maior{
+    background-image: url(../../img/woman.japan.jpg);
+    background-position: 60% center;
+}
+
 
 @media screen and (min-width:768px){
     /* header */
     .navigation-menu nav ul li a.pacotes {
     text-decoration: underline;
 }
-
 /* hero */
 .hero .hero-img{
     height: 620px;
@@ -60,4 +77,10 @@
     .hero .section_title{
     width: 580px;
 }
+/* payments */
+.payments-forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
