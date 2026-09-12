@@ -1,86 +1,86 @@
 @import url(../style.css);
 
-.hero .hero-img{
-    height: 460px;
-    width: 100%;
-    background: url(../../img/img_monte_fuji_japao_mobile.jpg) no-repeat;
-    background-size: cover;
-    padding: 65px 24px;
-    box-sizing: border-box;
+.hero .hero-img {
+  height: 460px;
+  width: 100%;
+  background: url(../../img/img_monte_fuji_japao_mobile.jpg) no-repeat;
+  background-size: cover;
+  padding: 65px 24px;
+  box-sizing: border-box;
 }
-.section_title{
-    margin: 0;
+.section_title {
+  margin: 0;
 }
-.hero .hero-img .section_title hr{
-   margin: 32px 0 16px;
+.hero .hero-img .section_title hr {
+  margin: 32px 0 16px;
 }
-.hero .hero-img .section_title h1{
-    color:var(--text-secondary-color);
-    font-weight: var(--title-weigth);
-    font-size: 48px;
+.hero .hero-img .section_title h1 {
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weigth);
+  font-size: 48px;
 }
-.hero .hero-img .section_title p{
-    color:var(--text-secondary-color);
-    font-weight: var(--text-weigth);
-    font-size: 20px;
-    line-height: 32px;
+.hero .hero-img .section_title p {
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weigth);
+  font-size: 20px;
+  line-height: 32px;
 }
 /* destination */
-.destinations{
-    margin-top: 88px;
+.destinations {
+  margin-top: 88px;
 }
-.destinations .section_title h2{
-   padding: 0px 60px;
+.destinations .section_title h2 {
+  padding: 0px 60px;
 }
 /* payments */
-.payments .payments_contain .payments-forms h2{
-    font-weight: var(--title-weigth);
-    font-size: 40px;
-    margin-bottom: 24px;
+.payments .payments_contain .payments-forms h2 {
+  font-weight: var(--title-weigth);
+  font-size: 40px;
+  margin-bottom: 24px;
 }
-.payments .payments_contain .img-payments .img_menor.img1{
-background-image: url(../../img/templo.japan.jpg);
-background-position: 60% center;
+.payments .payments_contain .img-payments .img_menor.img1 {
+  background-image: url(../../img/templo.japan.jpg);
+  background-position: 60% center;
 }
-.payments .payments_contain .img-payments .img_menor.img2{
-    background-image: url(../../img/tokyo.japan.jpg);
-    background-position: 60% center;
+.payments .payments_contain .img-payments .img_menor.img2 {
+  background-image: url(../../img/tokyo.japan.jpg);
+  background-position: 60% center;
 }
-.payments .payments_contain .img-payments .img_maior{
-    background-image: url(../../img/woman.japan.jpg);
-    background-position: 60% center;
+.payments .payments_contain .img-payments .img_maior {
+  background-image: url(../../img/woman.japan.jpg);
+  background-position: 60% center;
 }
 
-
-@media screen and (min-width:768px){
-    /* header */
-    .navigation-menu nav ul li a.pacotes {
+@media screen and (min-width: 768px) {
+  /* header */
+  .navigation-menu nav ul li a.pacotes {
     text-decoration: underline;
-}
-/* hero */
-.hero .hero-img{
+  }
+  /* hero */
+  .hero .hero-img {
     height: 620px;
     width: 100%;
-    background: url(../../img/img_monte_fuji_japao_tablet_desktop_.jpg) no-repeat;
+    background: url(../../img/img_monte_fuji_japao_tablet_desktop_.jpg)
+      no-repeat;
     background-size: cover;
     background-position: 70% center;
-    padding: 210px 69px  108px 120px;
-}
+    padding: 210px 69px 108px 120px;
+  }
 
-.hero .hero-img .section_title p{
+  .hero .hero-img .section_title p {
     font-size: 32px;
     line-height: 150%;
-}
+  }
 }
 
-@media screen and (min-width:1024px){
-    .hero .section_title{
+@media screen and (min-width: 1024px) {
+  .hero .section_title {
     width: 580px;
-}
-/* payments */
-.payments-forms {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+  }
+  /* payments */
+  .payments-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
