@@ -51,6 +51,10 @@
   background-position: 60% center;
 }
 
+/* footer */
+.footer_img{
+   background-image: url(../../img/japanese_womans_japan_mobile.png);
+}
 @media screen and (min-width: 768px) {
   /* header */
   .navigation-menu nav ul li a.pacotes {
@@ -71,6 +75,10 @@
     font-size: 32px;
     line-height: 150%;
   }
+  /* footer */
+  .footer_img{
+   background-image: url(../../img/japanese_womans_japan_tablet_desktop.png);
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -83,4 +91,8 @@
     flex-direction: column;
     justify-content: center;
   }
+  /* footer */
+   .footer_img{
+   height: 600px;
+}
 }
