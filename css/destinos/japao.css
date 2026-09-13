@@ -1,5 +1,11 @@
 @import url(../style.css);
 
+ /* header */
+  .navigation-menu nav ul li a.pacotes {
+    text-decoration: underline;
+  }
+
+  /* hero */
 .hero .hero-img {
   height: 460px;
   width: 100%;
@@ -56,10 +62,6 @@
    background-image: url(../../img/japanese_womans_japan_mobile.png);
 }
 @media screen and (min-width: 768px) {
-  /* header */
-  .navigation-menu nav ul li a.pacotes {
-    text-decoration: underline;
-  }
   /* hero */
   .hero .hero-img {
     height: 620px;
